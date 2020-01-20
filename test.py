@@ -11,8 +11,6 @@ chromeOptions.add_experimental_option("prefs",prefs)
 driver = webdriver.Chrome(chrome_options=chromeOptions) 
 
 
-# base https://docs.google.com/spreadsheets/d/1a6h0-yYMyq11njW-xIh1Q0B5OAYZbZ5rVHYq-L5CGLI/edit?usp=sharing
-
 def logining():
     driver.get("https://smmok14.ru/")
     driver.find_element_by_xpath("//a[@x-ulogin-button='vkontakte']").click()
