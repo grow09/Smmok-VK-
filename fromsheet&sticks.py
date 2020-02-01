@@ -13,9 +13,6 @@ chromeOptions.add_experimental_option("prefs",prefs)
 chromeOptions.add_argument('--proxy-server=%s' % PROXY) 
 driver = webdriver.Chrome(chrome_options=chromeOptions) 
 
-
-# base https://docs.google.com/spreadsheets/d/1a6h0-yYMyq11njW-xIh1Q0B5OAYZbZ5rVHYq-L5CGLI/edit?usp=sharing
-
 accounts = ['can','use','multiply','accounts'] # ["number", "pass", "number", "pass"]
 i = 0
 j = 1
